@@ -1,0 +1,19 @@
+/**
+ * Programa principal del juego
+ * @author Dayana Arrieta & Juan José Quintana
+ */
+
+public  class Principal {
+    public Principal() {
+    }
+
+    /**
+     * Método main
+     * @author Dayana Arrieta & Juan José Quintana
+     */
+    public static void main(String[] args) {
+        Juego juego = new Juego();
+        juego.jugar();
+    }
+}
+
